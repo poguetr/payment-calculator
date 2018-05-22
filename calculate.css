@@ -1,0 +1,35 @@
+@charset "utf-8";
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+ 
+html,
+body,
+div{
+    margin: 0;
+    padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+body {
+	margin: 0 auto;
+}
+#header{
+    background: #cccccc;
+}
+ 
+#main{
+    background: #dddddd;    
+}
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+}
+ 
+#primary{
+    max-width: 650px;
+    margin: 0 auto;
+}
